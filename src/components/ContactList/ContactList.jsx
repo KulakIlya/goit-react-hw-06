@@ -1,11 +1,10 @@
 import PropTypes from 'prop-types';
 import { useSelector } from 'react-redux';
 
-import Contact from './Contact';
-
 import { selectContacts } from '../../redux/contactsSlice';
 import { selectNameFilter } from '../../redux/filtersSlice';
 
+import Contact from '../Contact';
 import styles from './ContactList.module.css';
 
 const ContactList = () => {

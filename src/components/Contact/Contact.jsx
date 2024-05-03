@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import { FaPhoneAlt, FaUser } from 'react-icons/fa';
 import { useDispatch } from 'react-redux';
 
-import { deleteContact } from '../../../redux/contactsSlice';
+import { deleteContact } from '../../redux/contactsSlice';
 
 import styles from './Contact.module.css';
 
